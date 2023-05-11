@@ -31,6 +31,7 @@ form {
   gap: 10px;
   justify-content: center;
   padding: 20px;
+  max-width: 500px;
 }
 
 .search {
@@ -166,6 +167,10 @@ h1 {
   margin-left: -80px;
 }
 .weatherPage {
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px auto;
   margin-top: 60px;
   display: flex;
   flex-direction: column;
@@ -177,6 +182,6 @@ h1 {
   color: #656974;
   text-decoration: none;
   opacity: 80;
-  text-align: left;
+  text-align: center;
   margin-top: 20px;
 }
