@@ -39,7 +39,7 @@ function searchDefaultCity(city) {
   axios.get(apiUrl).then(showTemp);
 }
 
-function searchDefaultCity(event) {
+function searchCity(event) {
   event.preventDefault();
   let city = document.querySelector("#city-input").value;
   searchDefaultCity(city);
