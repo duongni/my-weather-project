@@ -172,3 +172,11 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+.coder {
+  font-size: 10px;
+  color: #656974;
+  text-decoration: none;
+  opacity: 80;
+  text-align: left;
+  margin-top: 20px;
+}
