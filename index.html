@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather</title>
+
+    <script
+      src="https://kit.fontawesome.com/118803ab34.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="weatherPage">
+      <form class="searchBar" id="citySearchBar">
+        <input
+          type="text"
+          name="city"
+          placeholder="Enter city name"
+          class="search"
+          id="city-input"
+        />
+
+        <button id="buttonSearch" type="submit">
+          <i
+            class="fa-solid fa-magnifying-glass searchGlassIcon"
+            style="color: #5a6275"
+          ></i>
+        </button>
+        <button id="current-location-search">
+          <i
+            class="fa-solid fa-location-dot locationIcon"
+            style="color: #5a6275"
+          ></i>
+        </button>
+      </form>
+      <div class="totalContainer">
+        <div class="row1">
+          <div class="locationDate">
+            <h1 id="city"></h1>
+            <p class="date" id="date-time"></p>
+          </div>
+          <div class="container1">
+            <img src="images/sun-01.png" alt="Sunny" class="sunIcon" />
+            <div class="containerA">
+              <p class="currentTempNumber" id="currentTemp"></p>
+
+              <p class="currentDes">
+                °F
+                <span id="current-description"></span>
+              </p>
+            </div>
+          </div>
+          <div class="container2">
+            <p>Feel Like: <span id="feel-like"></span>°</p>
+            <p>Humidity: <span id="current-humidity"></span>%</p>
+            <p>Wind: <span id="wind-speed"></span>mph</p>
+          </div>
+        </div>
+        <div class="forecast">
+          <div class="forecastList">
+            <div class="next">
+              <p class="date">Tue</p>
+              <img
+                src="images/heavy-dark-cloud.png"
+                alt="heavy dark cloud"
+                class="forecastIcon"
+              />
+              <p class="desc">65°</p>
+            </div>
+
+            <div class="next">
+              <p class="date">Wed</p>
+              <img
+                src="images/partly-cloud.png"
+                alt="cloudy"
+                class="forecastIcon"
+              />
+              <p class="desc">67°</p>
+            </div>
+
+            <div class="next">
+              <p class="date">Thu</p>
+              <img src="images/sun-01.png" alt="Sunny" class="forecastIcon" />
+              <p class="desc">69°</p>
+            </div>
+
+            <div class="next">
+              <p class="date">Fri</p>
+              <img
+                src="images/partly-cloud.png"
+                alt="cloudy"
+                class="forecastIcon"
+              />
+              <p class="desc">69°</p>
+            </div>
+
+            <div class="next">
+              <p class="date">Sat</p>
+              <img
+                src="images/sun-cloud.png"
+                alt="cloudy but sunny"
+                class="forecastIcon"
+              />
+              <p class="desc">72°</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

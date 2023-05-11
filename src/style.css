@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+html {
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+body {
+  background: #e9f8fe;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 20px;
+}
+
+form {
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.search {
+  font-size: 12px;
+  padding: 2px 5px;
+  outline: none;
+  border-radius: 20px;
+  background: #ddf5ff;
+  border: 2px solid rgb(140, 212, 250);
+}
+.searchBar {
+  display: flex;
+  flex-basis: auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.search {
+  width: 400px;
+  color: #5a6275;
+}
+.searchGlassIcon {
+  padding: 10px 10px;
+  font-size: 12px;
+}
+.locationIcon {
+  padding: 10px 10px;
+  font-size: 12px;
+}
+
+button {
+  background: #ddf5ff;
+  border: 2px solid rgb(140, 212, 250);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin-bottom: 0;
+  color: #5a6275;
+}
+.date {
+  font-family: "Poppins", sans-serif;
+  color: #5a6275;
+  margin: 0px 0px 0px;
+  padding-top: 0;
+  font-size: 12px;
+  margin-top: -5px;
+}
+.locationDate {
+  font-family: "Poppins", sans-serif;
+  color: #5a6275;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.containerA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sunIcon {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+.currentDes {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  justify-content: center;
+  text-align: center;
+  color: #5a6275;
+  font-size: 40px;
+  line-height: 0.8;
+}
+.currentTempNumber {
+  color: #5a6275;
+  font-size: 95px;
+  margin: 0;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  justify-content: center;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #5a6275;
+  font-size: 12px;
+  gap: 15px;
+  margin-top: -15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.next {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+  color: #5a6275;
+  gap: 30px;
+}
+
+.forecastList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 20px;
+  width: 70px;
+}
+.forecastIcon {
+  max-width: 50px;
+}
+.date {
+  text-align: left;
+}
+.desc {
+  margin-top: 0;
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+.forecast {
+  margin-left: 50px;
+}
+.totalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  margin-left: -80px;
+}
+.weatherPage {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
