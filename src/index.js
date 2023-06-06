@@ -81,3 +81,12 @@ function searchCurrentLocation(event) {
 
 let currentLocationButton = document.querySelector("#current-location-search");
 currentLocationButton.addEventListener("click", searchCurrentLocation);
+
+function changeTheme() {
+  let body = document.querySelector("body");
+  body.classList.toggle("dark");
+}
+
+if (hour > 18) {
+  changeTheme();
+}
